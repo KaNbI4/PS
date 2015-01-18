@@ -8,7 +8,12 @@
 $mw1320 = "@media screen and (min-width: 1320px)"
 hc =  #8c8c8c
 ah = #e92121
+texth = #464646
+text = #b7b7b7
+
 robo = 'Roboto', sans-serif
+sorts =  'Sorts Mill Goudy', serif;
+
 w1 = 945px
 
 clear() 
@@ -125,6 +130,7 @@ header
 		border-radius 3px 
 		display inline-block
 		padding 6px 30px 
+		transition background .3s ease, border-color .2s ease
 		
 		&:hover 
 			background ah 
@@ -152,7 +158,7 @@ header
 	h2 
 		font-size 48px
 		line-height 60px
-		color #464646 
+		color texth
 		font-weight 600
 		text-transform uppercase  
 		padding-right 70px
@@ -164,7 +170,7 @@ header
 	p 
 		font-size 16px 
 		line-height 30px
-		color #B7B7B7 
+		color text
 		font-weight 300 
 		padding-right 10px
 	
@@ -182,24 +188,517 @@ header
 	h3 
 		font-size 30px
 		line-height 40px
-		color #464646
+		color texth
 		font-weight 700  
+		position relative
+		
+		&:after 
+			content ""
+			position absolute
+			top 60px
+			left 46%
+			background url(../img/triangle.png) repeat-x
+			width 72px
+			height 12px
+			display block   
 		
 	h4 
+		width 46%
+		margin 0 auto
 		margin-top 74px
 		font-size 18px
 		line-height 30px   	 
 		font-weight 300
-		color #B7B7B7 
+		color text
+		
 	
+.b-six-steps-wrap
+	width w1
+	margin 0 auto 
+	padding-bottom 100px
+	
+
+.b-six-steps__item
+	display inline-block
+	vertical-align middle
+	width 270px
+	
+.b-six-steps__img
+	span 
+		background url(../img/five.png) no-repeat
+		width 64px
+		height 64px
+		display block 	
+
+.b-six-steps__text 
+	padding-top 34px
+	
+	h4 
+		font-size 18px
+		line-height 24px
+		color texth
+		font-weight 700  	
+		padding-right 10px
+		
+	h5 
+		margin-top 30px
+		font-size 16px
+		line-height 24px 
+		color text
+		font-weight 300 	
+
+.b-six-steps__item_two
+.b-six-steps__item_three
+.b-six-steps__item_four		
+.b-six-steps__item_five
+.b-six-steps__item_six
+	margin-left 42px
+
+
+.b-six-steps__item_four
+.b-six-steps__item_five
+.b-six-steps__item_six
+	margin-top 80px		
+
+.b-ring 
+	background #FAF9F9
+	position relative 
+
+.b-ring-wrap
+	width w1
+	margin 0 auto 
+	overflow hidden
+	
+.left 
+	position absolute
+	top 40%
+	left 20px
+	display block
+	width 85px
+	height 85px
+	color #000
+	font-size 40px	
+	text-decoration none
+	font-family Courier
+	font-weight 100
+	background #fff url(../img/left.png) no-repeat center center
+	
+.right
+	position absolute
+	top 40%
+	right 20px
+	display block
+	width 85px
+	height 85px
+	color #000
+	font-size 40px	
+	text-decoration none
+	font-family Courier
+	font-weight 100		
+	background #fff url(../img/right.png) no-repeat center center
+	
+.b-ring-slider
+	width 200000em
+	clear()
+	
+.b-ring__item
+	width w1 
+	float left 
+	padding 110px 0 	
+
+.b-ring__img
+	float left
+	width 403px
+
+.b-ring__info
+	float right
+	width 440px
+	
+	h3 
+		font-size 30px
+		line-height 40px 
+		color texth 
+		font-weight 700
+		position relative
+		
+		&:after 
+			content ""
+			position absolute
+			bottom -45px
+			left 0
+			background url(../img/triangle.png) repeat-x
+			width 72px
+			height 12px
+			display block
+		
+	p 
+		margin-top 75px	
+		padding-right 20px
+		font-size 18px
+		line-height 30px
+		color text
+		font-weight 300 
+		
+	a 
+		margin-top 37px
+		font-size 16px
+		line-height 40px 
+		color #FFF	
+		font-weight 600 
+		text-decoration none
+		border 2px solid #fff 
+		border-radius 4px 
+		display inline-block
+		padding 6px 30px 
+		background ah 
+		
+
+.b-why-wrap
+	width w1
+	margin 0 auto 
+	padding-top 100px
+	clear()
+
+	
+.b-why__left 
+	width 40%	
+	float left
+	padding-top 80px
+	
+	h2 
+		font-size: 48px;
+		line-height: 60px;
+		color texth
+		font-weight: 600;
+		text-transform: uppercase;
+		padding-right: 90px;
+		
+	
+.b-why__right
+	width 60%	
+	float right 
+
+.b-why__item
+	display inline-block
+	width 220px
+	h4 
+		font-size 18px
+		line-height 24px
+		color texth
+		font-weight 700 
+		
+	p 
+		padding-top 25px
+		color #B7B7B7	
+		font-size 16px
+		line-height 24px
+		font-weight 300 
+
+.b-why__item_r
+	margin-left 100px
+	
+.b-why__item_uniq
+.b-why__item_trust
+	margin-top 80px		
+
+
+.b-pics-text-wrap
+	width w1
+	margin 0 auto
+	padding-top 100px
+	padding-bottom 100px 
+
+.b-pics-text__pics
+	clear()
+	
+	ul 
+		li 
+			float left 
+			
+			&:last-child
+				position relative
+				width 285px
+				padding-top 75px
+				padding-left 45px
+				font-size 48px
+				line-height 60px
+				color texth
+				text-transform uppercase
+				font-weight 700 
+				
+				&:after 
+					content ""
+					position absolute
+					bottom -45px
+					left 16%
+					background url(../img/triangle.png) repeat-x
+					width 72px
+					height 12px
+					display block
+			
+			img 
+				display block
+
+.b-pics-text__text
+	padding-top 50px
+	clear()
+
+.b-pics-text__pics-left
+	float left
+	width 425px
+	
+	p 
+		font-style 16px
+		line-height 30px
+		color text 
+		font-weight 300
+	
+.b-pics-text__pics-right
+	float right	
+	width 425px
+	
+	p 
+		font-style 16px
+		line-height 30px
+		color text 
+		font-weight 300
+
+.b-comments
+	background #faf9f9
+	
+.b-comments-wrap
+	width w1
+	margin 0 auto
+	padding 80px  0 100px 0	
+	
+	h2 
+		font-size 30px
+		line-height 40px
+		color texth 
+		font-weight 700 
+		text-align center  
+		position relative
+		
+		&:after 
+			content ""
+			position absolute
+			bottom -45px
+			left 46%
+			background url(../img/triangle.png) repeat-x
+			width 72px
+			height 12px
+			display block
+		
+	h4 
+		width 46%
+		margin 0 auto
+		margin-top 70px
+		font-size 18px
+		line-height 30px 
+		color text 
+		font-weight 300 
+		text-align center	
+
+.b-comments-items 
+	padding-top 85px
+	
+.b-comments__item	
+	width 245px
+	position relative
+	display inline-block
+	margin-left 65px
+	
+	h3 
+		font-size 18px
+		line-height 24px 
+		color texth 
+		font-weight 700  
+		
+	h5 
+		padding 6px 0 
+		font-size 14px
+		line-height 24px 
+		color text  
+		font-weight 100 
+		
+	p 
+		font-size 16px
+		line-height 24px 
+		font-weight  300
+		color text   		
+	
+	
+.b-comments__item_down	
+	margin-top 100px
+
+.b-comments-items__q
+	position absolute
+	top -9px
+	left -60px
+	display block
+	width 40px
+	height 40px
+	background #E92121 
+	border-radius 50%
+	
+	&:after
+		position absolute
+		top 10px
+		left 7px
+		content ' " '
+		font-family sorts
+		color #FFF
+		font-size 60px
+
+
+.b-photo-wrap
+	width w1
+	margin 0 auto
+	padding-top 100px
+	padding-bottom 100px 
+
+.b-photo__pics
+	clear()
+	
+	ul 
+		li 
+			float left 
+			
+			&:nth-child(5)
+				position relative
+				width 470px
+				padding-top 75px
+				padding-right 80px
+				font-size 48px
+				line-height 60px
+				color texth
+				text-transform uppercase
+				font-weight 700 
+				
+				&:after 
+					content ""
+					position absolute
+					bottom -45px
+					left 0
+					background url(../img/triangle.png) repeat-x
+					width 72px
+					height 12px
+					display block
+			
+			img 
+				display block
+
+.b-photo__text
+	padding-top 50px
+	clear()
+
+.b-photo__text-left
+	float left
+	width 425px
+	
+	p 
+		font-style 16px
+		line-height 30px
+		color text 
+		font-weight 300
+	
+.b-photo__text-right
+	float right	
+	width 425px
+	
+	p 
+		font-style 16px
+		line-height 30px
+		color text 
+		font-weight 300
+
+
 footer 
 	background #141414
+	
+.b-footer	
+	width w1
+	margin 0 auto
+	padding 78px 0
+	
+	clear()
 		
 
 .b-footer__left
+	float left
+	width 380px
+	clear()
+	
 	h3 
 		font-size 24px
 		color #FFF	
-		line-height 60px
+		line-height 26px
 		font-weight 700
 		text-transform uppercase 
+		padding-bottom 75px
+
+.b-footer__left-l
+	float left
+	width 50%
+	
+	a 
+		
+		font-style 16px
+		line-height 36px
+		color #474747
+		font-weight 300
+		text-decoration none
+		
+		&:hover
+			text-decoration underline	
+
+.b-footer__left-r
+	float right
+	width 50%
+	
+	a 
+		
+		font-style 16px
+		line-height 36px
+		color #474747
+		font-weight 300
+		text-decoration none
+		
+		&:hover
+			text-decoration underline	
+			
+
+.b-footer__right
+	float right	
+	width 200px
+	
+.b-footer__soc
+	text-align right
+	
+	span 
+		display inline-block
+		width 25px
+		height 25px
+		margin-left 10px
+		
+.facebook 
+	background url(../img/facebook.png) no-repeat 				
+	
+.twitter 
+	background url(../img/twitter.png) no-repeat 	
+	
+.ball 
+	background url(../img/ball.png) no-repeat  	
+	
+.google 
+	background url(../img/google.png) no-repeat  	
+
+.b-footer__copy
+	padding-top 75px
+	text-align right
+	
+	p 
+		font-size 16px 	
+		line-height 24px
+		color #353434
+		font-weight 300 
