@@ -1,0 +1,205 @@
+@import 'nib'
+
+@font-face
+	font-family prox
+	font-style normal   
+	src url(../fonts/ProximaNova-Reg.otf)
+	
+$mw1320 = "@media screen and (min-width: 1320px)"
+hc =  #8c8c8c
+ah = #e92121
+robo = 'Roboto', sans-serif
+w1 = 945px
+
+clear() 
+	&:after
+		content ''
+		clear both
+		display block
+		width 0
+		height 0
+		visibility hidden
+
+
+*
+	box-sizing border-box
+	
+body
+	font-size 16px
+	color #000
+	font-family robo
+	
+header
+	height 800px 
+	background #272727	url(../img/header_bg.png) no-repeat center center fixed
+	background-size cover	
+	
+.b-header-nav-wrap
+	width w1
+	margin 0 auto
+	padding-top 40px
+	
+	clear()
+	
+
+.b-header-logo
+	float left
+
+	span 
+		font-size 24px
+		line-height 25px 
+		font-weight 600
+		color #FFF
+		
+.b-header-nav
+	float right
+	
+	ul 
+		clear()
+		
+		li 
+			float left
+			margin-left 43px
+			
+			a 
+				font-size 14px
+				font-weight 300
+				color #FFF 
+				text-decoration none 
+				
+				&:hover 
+					color hc	
+					
+.b-header-soc		
+	float right	
+	margin-left 37px
+				
+	a 
+		background url(../img/twi.png) no-repeat 
+		width 15px
+		height 15px
+		display block
+		float left
+		text-decoration none
+		
+	a + a 
+		background url(../img/faceb.png) no-repeat  	
+		width 15px
+		height 15px
+		display block
+		float left
+		margin-left 20px
+		text-decoration none
+
+.b-header-text
+	width w1
+	margin 0 auto 
+	margin-top 250px
+	
+	div 
+		width 566px
+		text-align left
+
+	h4 
+		font-size 24px  
+		color #FFF
+		line-height 26px 
+		font-weight 300
+		
+	h2 
+		font-size 60px  
+		color #FFF
+		line-height 60px
+		font-weight	600
+		text-transform uppercase
+		padding-top 42px
+		padding-bottom 45px
+		
+	a 
+		font-size 16px
+		line-height 40px 
+		color #FFF	
+		font-weight 600 
+		text-decoration none
+		border 2px solid #fff 
+		border-radius 3px 
+		display inline-block
+		padding 6px 30px 
+		
+		&:hover 
+			background ah 
+			border-color transparent
+		
+	a + a 
+		margin-left 25px 
+		
+
+.b-history 
+	border-bottom 1px solid #f1f1f1
+	
+
+.b-history-wrap
+	width w1
+	margin 0 auto
+	padding 100px 0
+	clear()
+
+.b-history__left
+	width 50%
+	float left
+	padding-top 115px
+	
+	h2 
+		font-size 48px
+		line-height 60px
+		color #464646 
+		font-weight 600
+		text-transform uppercase  
+		padding-right 70px
+	
+.b-history__right
+	width 50%	
+	float right
+	
+	p 
+		font-size 16px 
+		line-height 30px
+		color #B7B7B7 
+		font-weight 300 
+		padding-right 10px
+	
+	p + p 
+		margin-top 50px
+
+
+.b-hwork-wrap
+	width w1
+	margin 0 auto 
+	padding-top 110px
+	padding-bottom 130px
+	text-align center
+	
+	h3 
+		font-size 30px
+		line-height 40px
+		color #464646
+		font-weight 700  
+		
+	h4 
+		margin-top 74px
+		font-size 18px
+		line-height 30px   	 
+		font-weight 300
+		color #B7B7B7 
+	
+footer 
+	background #141414
+		
+
+.b-footer__left
+	h3 
+		font-size 24px
+		color #FFF	
+		line-height 60px
+		font-weight 700
+		text-transform uppercase 
