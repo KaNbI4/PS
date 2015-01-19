@@ -43,9 +43,7 @@ function slide() {
 
 				animate(slider, 'min', start, end);
 
-			} else {
-				slider.style.marginLeft = start + 'px';
-			}
+			} 
 
 		},false);	
 
@@ -55,9 +53,7 @@ function slide() {
 
 				animate(slider, 'plus');
 
-			} else {
-				slider.style.marginLeft = start + 'px';
-			}
+			} 
 
 		}, false);	
 	}
