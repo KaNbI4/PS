@@ -8,6 +8,19 @@
 	font-family monr
 	src url(../fonts/Montserrat-Regular.ttf)	 
 	
+@font-face
+	font-family openb
+	src url(../fonts/OpenSans-Bold.ttf)		
+	
+	
+@font-face
+	font-family openr
+	src url(../fonts/OpenSans-Regular.ttf)		
+	
+@font-face
+	font-family opens
+	src url(../fonts/OpenSans-Semibold.ttf)		
+	
 hcolor = #252525
 
 
@@ -81,6 +94,7 @@ header
 
 .b-share
 	position absolute
+	z-index 1 
 	top 79px
 	left -78px
 	width 186px
@@ -123,11 +137,14 @@ header
 .b-item__right
 	float right
 	width 134px
+	font-family openb 
 	font-size 13px
 	line-height 44px
 	color #323232
 	font-weight 300
 	text-transform uppercase 
+	text-align left
+	padding-left 15px
 	border-bottom 1px solid #e7e7e7
 	
 .b-header__search
@@ -165,3 +182,215 @@ header
 		display inline-block
 		width 20px
 		height 20px		
+		
+
+.b-content
+	clear()
+	position relative
+
+.b-content__left 
+	position absolute
+	top 0
+	left 0
+	width 70px	
+	background #FBFBFB	
+	
+.b-menu__item
+	text-align center
+	padding 26px 0
+	cursor pointer
+	 
+	span 
+		display inline-block		
+
+.b-menu__item_art
+	border-right 1px solid #e7e7e7 
+	
+
+	span 
+		background url(../img/art_logo.png) no-repeat
+		width 20px  
+		height 16px
+		
+	
+.b-menu__item_music
+	border-right 1px solid #e7e7e7 
+	border-top 1px solid #e7e7e7 
+	
+
+	span 
+		background url(../img/music_logo.png) no-repeat
+		width 20px  
+		height 16px
+		
+		
+.b-menu__item_foto
+	border-right 1px solid #e7e7e7 
+	border-top 1px solid #e7e7e7 
+	
+
+	span 
+		background url(../img/foto_logo.png) no-repeat
+		width 20px  
+		height 16px		
+		
+
+.b-menu__item_video
+	border-right 1px solid #e7e7e7 
+	border-top 1px solid #e7e7e7 
+	
+
+	span 
+		background url(../img/video_logo.png) no-repeat
+		width 20px  
+		height 16px			
+
+.b-menu__item_business
+	border-right 1px solid #e7e7e7 
+	border-top 1px solid #e7e7e7 
+	position relative
+	
+	&:hover 
+		.b-menu-item-hover	
+			opacity 1
+			visibility visible
+	
+
+	span 
+		background url(../img/business_logo.png) no-repeat
+		width 20px  
+		height 18px	
+
+		
+.b-menu-item-hover
+	position absolute
+	top 0
+	width 158px
+	height 73px
+	background #5692B1
+	padding-top 26px
+	padding-left 24px
+	text-align left
+	visibility hidden
+	opacity 0 
+	transition opacity .3s ease, visibility .3s ease
+	
+		
+	span 
+		background url(../img/business_hover.png) no-repeat
+		width 20px  
+		height 18px	
+		display inline-block
+		vertical-align middle
+		
+	p 
+		display inline-block
+		vertical-align middle
+		font-size 14px 			
+		line-height 20px
+		font-family monb 
+		color #FFF  
+		text-transform uppercase
+		padding-left 17px
+		
+.b-menu__item_travel
+	border-right 1px solid #e7e7e7 
+	border-top 1px solid #e7e7e7 
+	
+
+	span 
+		background url(../img/travel_logo.png) no-repeat
+		width 20px  
+		height 19px				
+		
+.b-menu__item_fashion
+	border-right 1px solid #e7e7e7 
+	border-top 1px solid #e7e7e7 
+	
+
+	span 
+		background url(../img/fashion_logo.png) no-repeat
+		width 20px  
+		height 16px			
+		
+.b-menu__item_more
+	border-right 1px solid #e7e7e7 
+	border-top 1px solid #e7e7e7 
+	border-bottom 1px solid #e7e7e7 
+	padding 23px 0
+	
+
+	span 
+		background url(../img/more_logo.png) no-repeat
+		width 22px  
+		height 22px				
+		
+.b-menu__item_settings
+	margin-top 294px
+	background #FFF
+	border-right 1px solid #e7e7e7 
+	border-top 1px solid #e7e7e7 
+	border-bottom 1px solid #e7e7e7 
+	
+
+	span 
+		background url(../img/sets_logo.png) no-repeat
+		width 18px  
+		height 18px			
+
+.b-content__right
+	clear()
+		
+.b-blocks
+	float right
+	margin 0 auto	
+
+.b-blocks__item
+	width 470px
+	float left
+	margin 30px 15px 0 15px 
+
+.b-blocks-item__img
+	img 
+		display block
+	
+.b-blocks-item__text
+	padding 22px 30px 
+	border 1px solid #ebebeb
+	border-top none
+	border-bottom 5px solid #2eb398
+
+	h3 
+		font-family monb
+		font-size 26px
+		line-height 30px
+		color #313131  	
+		padding-bottom 12px
+		
+	p 
+		font-family openr 
+		font-size 14px
+		line-height 22px
+		color #626262 		
+	
+.b-blocks-info
+	padding-bottom 13px
+
+.b-blocks-info__date
+	width 110px
+	display inline-block		
+	font-family opens 
+	font-size 12px 
+	line-height 36px
+	color #9D9D9D
+	padding-left 20px
+	background url(../img/calendar.png) no-repeat left center 
+	
+.b-blocks-info__comments
+	display inline-block	
+	font-family opens 
+	font-size 12px 
+	line-height 36px
+	color #9D9D9D
+	padding-left 25px
+	background url(../img/comments.png) no-repeat left center 
