@@ -3,20 +3,19 @@ module.exports = function(grunt) {
 	grunt.initConfig({
 		
 		stylus: {
+
 			compile: {
-				/*options: {
-					import: ['sets']
-				},*/
+
 				files: {
-					'./css/index.css': ['./styl/*.styl']
+					'./css/index.css': ['./styl/style.styl']
 				}
 			}
 		},
 
 		watch: {
 			stylus: {
-				files: './styl/*.styl',
-				tasks: ['newer:stylus']
+				files: './styl/style.styl',
+				tasks: ['stylus']
 			}
 		}
 		
