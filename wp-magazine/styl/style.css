@@ -304,6 +304,7 @@ header {
   padding: 0 20px;
 }
 .b-content-main {
+  margin-top: 5px;
   padding-bottom: 20px;
   border-bottom: 1px dotted #202021;
   zoom: 1;
@@ -319,7 +320,6 @@ header {
 .b-right-side {
   float: right;
   width: 250px;
-  margin-top: 5px;
 }
 .b-vids {
   padding: 10px 22px 27px 22px;
@@ -502,7 +502,103 @@ header {
 }
 .b-content-main-slider {
   width: 670px;
-  padding-top: 5px;
+  height: 315px;
+  background: #202021;
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+}
+.b-content-main-slider:before,
+.b-content-main-slider:after {
+  content: "";
+  display: table;
+}
+.b-content-main-slider:after {
+  clear: both;
+}
+.b-slider-slide {
+  margin-top: 13px;
+  float: left;
+}
+.b-slider-slide span {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 108px;
+  height: 26px;
+  background: #cf0000;
+  color: #fff;
+  font-size: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding-top: 10px;
+}
+.b-slider-slide__frame {
+  width: 525px;
+  height: 285px;
+  border: 3px solid #000;
+  margin-left: 10px;
+}
+.b-slider-item {
+  margin-top: 8px;
+  cursor: pointer;
+}
+.b-slider-item__img img {
+  display: block;
+  width: 107px;
+  height: 67px;
+}
+.select {
+  position: relative;
+}
+.select:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 99px;
+  height: 59px;
+  border: 4px solid #cf0000;
+}
+.b-slider-items .b-slider-item__text {
+  display: none;
+}
+.b-slider-slide__frame {
+  position: relative;
+}
+.b-slider-slide__frame .select {
+  border: 0;
+}
+.b-slider-slide__frame img {
+  width: 100%;
+  height: 279px;
+}
+.b-slider-slide__frame .b-slider-item__text {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  color: #fff;
+  text-align: left;
+  font-size: 15px;
+  line-height: 15px;
+  background: rgba(0,0,0,0.7);
+  width: 100%;
+}
+.b-slider-slide__frame .b-slider-item__text p {
+  width: 75%;
+  margin-left: 25%;
+  padding: 8px 0 3px;
+}
+.b-slider-slide__frame .b-slider-item {
+  margin-top: 0;
+}
+.b-slider-items {
+  float: right;
+  width: 130px;
+  padding: 5px 10px;
 }
 .b-content-wrap {
   width: 670px;
@@ -914,6 +1010,18 @@ header {
   line-height: 16px;
   color: #202021;
   font-weight: 300;
+}
+.bigHeight {
+  height: 32px;
+  overflow: hidden;
+  position: relative;
+}
+.bigHeight:after {
+  content: '...';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 15px;
 }
 .b-content-tech__comments span {
   display: inline-block;
