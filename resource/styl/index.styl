@@ -1,19 +1,397 @@
 @import 'nib'
 
+* 
+	box-sizing border-box 
 
 body 
 	font-family Arial 
 	font-size 16px
 
 .b-header
-	background #FFF
+	background #F4F4F4
+	overflow hidden
 	
 .b-header-inner
 	width 960px
 	margin 0 auto 
-	transition .1s width ease
+	
+.b-header-top
+	margin-bottom 20px	
+	padding 10px 0
+	clearfix()
+	
+.b-header-logo
+	float left	
+	margin-top 20px
 
 .b-header-logo__img
+	float left
+	width 184px
+	
 	span 
 		display block
+		width 184px
+		height 51px
 		background url(http://natural-resources.ru/img/logo.png) no-repeat
+		
+.b-header-logo__tel		
+	float right
+	padding-left 10px
+	margin-left 10px
+	margin-top 10px
+	border-left 1px solid #000
+	
+	p 
+		text-align right
+		line-height 10px 
+		
+		a 
+			font-size 10px
+			color #000
+	
+.b-header-nav
+	float right
+	margin-right 0
+	margin-top 34px
+	
+	ul 
+		
+		li.select 
+			background url(http://natural-resources.ru/img/menubg.png) repeat-x
+			
+			a 
+				color #FFF 
+
+		li 
+			float left
+			position relative
+			
+			&:first-child 
+				padding-left 0
+					
+				&:before 
+					content none
+					
+			&:before 
+				content '|'	
+				position absolute
+				font-size 12px
+				color #ababab
+				top 7px
+				left -2px 
+			
+			a 
+				display block
+				z-index 1
+				font-size 12px
+				line-height 20px
+				padding 4px 9px
+				color #000
+				text-transform uppercase
+				text-decoration none
+				background none 
+				
+				&:hover 
+					color #FFF 
+					background url(http://natural-resources.ru/img/menubg.png) repeat-x 
+				
+				
+
+.b-header-bottom
+	width 960px
+	margin-bottom 30px
+	overflow hidden
+	
+.b-header-slider 
+	height 430px
+	overflow hidden
+	clearfix()
+	
+	a 
+		color #FFF
+		text-decoration none 
+	
+.b-header-slider__item
+	float left
+	width 192px
+	overflow hidden
+	position relative
+	transition width .2s ease
+	
+	div 
+		position absolute
+		bottom 3px
+		left 0
+		width 400px
+		height 60px
+		background rgba(0, 0, 0, .3) 
+		
+		p 
+			float left
+			width 50%
+			font-size 14px
+			text-transform uppercase
+			padding-top 20px
+			padding-left 10px
+			
+		p + p 
+			float right	
+			width 50%
+			font-size 12px
+			text-transform lowercase
+			text-decoration underline
+			text-align right
+			padding-right 10px
+
+.hover 
+	width 400px
+		
+		
+.short 
+	width 140px		
+
+				
+.b-content 
+	background url(../img/bg.png) repeat
+
+.b-content-inner
+	width 940px
+	margin 0 auto
+	padding 20px 10px
+	font-size 12px
+	color #bbb
+
+.b-content-top
+	clearfix()
+
+.b-content-news
+	width 520px
+	float left
+
+.b-news-header
+	h2 
+		font-size 18px
+		line-height 29px
+		color #FFF
+		text-transform uppercase
+		
+		a 
+			float right 
+			font-size 12px
+			text-transform none
+			color #ECD39F
+			
+.b-news-items
+	clearfix() 
+
+.b-news-item 
+	margin-top 20px 
+	clearfix()
+	
+		
+	h3 
+		color #FFF 
+		margin-bottom 10px
+		
+		em 
+			color #ECD39F	
+		
+
+	p
+		margin-bottom 10px
+		padding-right 20px
+		
+	a 
+		
+		font-size 12px
+		color #ECD39F
+		text-transform lowercase
+
+.b-news-item__img 
+	float left	
+	width 184px
+	position relative
+	
+	&:after 
+		content ''
+		position absolute
+		top 0
+		left 0
+		width 92%
+		height 94%
+		border 4px solid #fff
+	
+	img 
+		display block
+		
+
+.b-news-item__text
+	width 320px
+	float right
+	
+.b-content-slider
+	float right	
+	width 370px
+	margin-left 30px
+
+.b-content-info
+	p 
+		padding-top 15px
+		
+		em 
+			font-size 12px
+			color #ccc
+			font-style normal  
+			font-weight 600 
+	
+
+.b-content-bottom
+	margin-top 15px
+	
+	h4 
+		font-size 16px
+		color #FFF
+		margin-bottom 20px
+		line-height normal  
+		
+	p 
+		margin-bottom 15px	
+		
+	ul 
+		list-style-type disc	
+		
+	li
+		margin-bottom 15px	
+		
+	ul + p 
+		margin-bottom 0		
+
+
+.b-content-slider-header
+	clearfix() 
+	
+	h3 
+		float left
+		font-size 18px
+		line-height 29px
+		text-transform uppercase
+		color #FFF 
+		margin-bottom 10px
+	
+
+.b-slider-buttons
+	float right
+	background url(../img/arrs.png) no-repeat 
+	width 58px
+	height 29px	
+	
+	a 
+		float left
+		width 29px
+		height 29px
+
+.b-content-slider-wrap
+	overflow hidden
+
+.b-content-slider__item
+	
+	div 
+		position relative
+		
+		&:after 
+			position absolute
+			content ''
+			top 0
+			left 0
+			width 97%
+			height 94%
+			border 4px solid #fff
+
+	img 
+		display block	
+		
+	p 
+		margin-top 5px 
+		
+		a 
+			font-size 12px
+			text-decoration none
+			color #ECD39F	
+			
+			&:hover 
+				text-decoration underline	
+
+.b-footer
+	background #F4F4F4
+	overflow hidden
+	
+.b-footer-inner 
+	width 940px
+	margin 0 auto	
+	padding 15px 10px
+	clearfix()
+	
+.b-footer-left 
+	float left
+	
+.b-footer-nav
+	clearfix() 
+		
+	ul 
+		li 
+			float left 
+			margin-right 8px
+			padding-left 8px
+			position relative
+			
+			&:first-child 
+				padding-left 0
+				
+				&:before 
+					content none
+				
+			&:before 
+				content '|'	
+				position absolute
+				font-size 12px
+				color #ababab
+				top 3px
+				left -2px 
+				width 1px
+				height 8px
+			
+			a 
+				font-size 11px
+				color #000
+				text-decoration none
+				text-transform uppercase
+				
+				&:hover 
+					text-decoration underline
+				
+		li.selectf
+			a 
+				text-decoration underline		
+
+.b-footer-copy
+	padding-top 5px
+	font-size 12px
+	line-height 12px
+	color #000
+
+	
+.b-footer-right						
+	float right
+	font-size 12px
+	color #000
+	
+	a 
+		font-size 12px
+		color #000
+
+.b-footer-adr
+	line-height 20px
+		
+.b-footer-develop
+	padding-top 3px
+	text-align right		
