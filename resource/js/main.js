@@ -1,5 +1,4 @@
-function headerSlider() {
-
+function headerSlider() { 
 	var slider =   document.querySelector('.b-header-slider'),
 		 items =   slider.querySelectorAll('.b-header-slider__item'),
 		    w1 =   400,
@@ -7,7 +6,7 @@ function headerSlider() {
 		    w3 =   140;   
 
 	
-	for (var i = items.length - 1; i >= 0; i--) {
+	for (var i = items.length - 1; i >= 0; --i) {
 		items[i].addEventListener('mouseenter', function(e) {
 		
 			e = e || window.e;
@@ -24,6 +23,7 @@ function headerSlider() {
 
 			for(var i = 0; i < a.length; ++i) {
 				if( !a[i].hasAttribute('class')) {
+
 					a[i].firstChild.nextSibling.style.width = w3 + 'px';
 				}
 			}
@@ -46,10 +46,59 @@ function headerSlider() {
 		}, false);
 	}
 
+
+}
+
+function contentSlider() {
+	var slider = document.querySelector('.b-content-slider-wrap');
+
+	
+	
+}
+
+function imgClick() {
+	var elem = document.querySelector('.b-news-item__img');
+
+	function init() {
+		elem.addEventListener('click', function(e) {
+			e = e || window.e;
+			var target    = e.target || e.srcElement,
+				img,
+				div       = document.createElement('div'),
+				imgClose  = document.createElement('div');
+
+			div.setAttribute('class', 'img-open');
+
+			img = this.cloneNode(true);
+			img.setAttribute('class', 'b-news-item__img_cc');
+			imgClose.setAttribute('class', 'img-close')
+
+			img.appendChild(imgClose);
+			div.appendChild(img);
+			document.body.appendChild(div);
+
+			div.addEventListener('click', function() {
+				document.body.removeChild(this);
+			}, false);
+
+			document.addEventListener('keydown', function(evt) {
+				evt = evt || window.evt;	
+				if( evt.which == '27') {
+					document.body.removeChild(div);
+				}
+
+			}, false);
+
+		}, false);
+	}
+
+	init();
 }
 
 
-document.body.onload = function() {
+document.addEventListener('DOMContentLoaded', function() {
 	headerSlider();
-};
+	contentSlider();
+	imgClick();
+}, false);
 
