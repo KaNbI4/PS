@@ -7,72 +7,29 @@
 
 <style>
 	
-	body {
-		background: #ccc;	
-	}
-	
-	.out {
-		width: 800px;
-		overflow: hidden;
-	}
-	
-	.out:after {
-		content: '';
-		display: block;
-		clear: both;
-		width: 0;
-		height: 0;
-		visibility: hidden;
-	}
-	
-	img {
-		display: block;
-	}
-	
-	.in {
-		float: left;
-		width: 200px;
-		overflow: hidden;
-		-webkit-transition: width .3s ease;
-		transition: width .3s ease;
-	}
-	
-	.hover {
-		width: 400px;
-	}
-	
-	.short {
-		width: 133px;
-	}
+
 	
 </style>
 <body>
-
-<div class="out">
-	<div class="in"><img src="1.jpg" alt=""></div>
-	<div class="in"><img src="2.jpg" alt=""></div>
-	<div class="in"><img src="3.jpg" alt=""></div>
-	<div class="in"><img src="4.jpg" alt=""></div>
+<div id="searcharea">
+	<label for="search">Live search</label>
+	<p>Enter the name or info about a speaker</p>
+	<input type="text" id="search" name="search" placeholder="name or info">
 </div>
+<div id="update"></div>	
 
 <script>
 
-var img = $('.in');
-
-img.on('mouseenter', function() {
+var xhr = new XMLHttpRequest();
+xhr.open('GET', 'smth.json');
+xhr.onreadystatechange = function() {
+	if( xhr.readyState !== 4 && xhr.status !== 200) return;
 	
-	$( this ).addClass('hover');
-	
-	$( this ).siblings('.in')
-			.addClass('short');
-	
-	$( this ).on('mouseleave', function() {
-		
-		$( this ).removeClass('hover');
-		$( this ).siblings('.in')
-				.removeClass('short');
-	});
-});
+	var j = JSON.parse(xhr.responseText);
+	console.log(j);
+	console.log(xhr.statusText);
+};	
+xhr.send(null);
 	
 </script>	
 

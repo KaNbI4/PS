@@ -1,0 +1,20 @@
+<cars>
+	<car>
+		<name>Ford</name>
+		<model>Mustang</model>
+		<color>Red</color>
+		<hp>340</hp>
+	</car>
+	<car>
+		<name>Maseratti</name>
+		<model>Quatroporte</model>
+		<color>Green</color>
+		<hp>380</hp>
+	</car>
+	<car>
+		<name>Porsche</name>
+		<model>911 turbo s</model>
+		<color>yellow</color>
+		<hp>540</hp>
+	</car>
+</cars>

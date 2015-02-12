@@ -1,0 +1,150 @@
+@import 'nib'
+
+mq1200_1600 = 'screen and (min-width: 1200px) and (max-width: 1600px)'
+mq1600_1900 = 'screen and (min-width: 1600px) and (max-width: 1900px)'
+
+.b-home 
+	margin-left 300px
+	position relative
+	clearfix()
+	
+.b-home-wrap	
+	@media mq1600_1900
+		width 1200px
+		margin 0 auto 
+		
+	@media mq1200_1600
+		margin 0 auto
+
+.b-home-info
+	position absolute
+	z-index 2
+	top 0
+	right 0
+	width 91px
+	height 91px	
+	background rgb(37, 177, 175) 
+	cursor pointer
+	
+.b-home-info__i
+	width 61px
+	height 61px
+	border 1px solid #fff 
+	border-radius 50% 
+	margin 15px auto
+	background url(../img/i.png) no-repeat center center 
+	position relative
+
+.b-home-info__contacts
+	position absolute
+	bottom -60px
+	right 0
+	padding 20px 88px 25px 50px
+	background rgba(0, 0, 0, .7) 
+	
+	a 
+		font-size 15px
+		line-height 15px
+		color #FFF
+		font-weight 300  
+		text-decoration none
+	
+.b-home-item
+	float left
+	width 400px
+	height 320px
+	position relative
+	cursor pointer
+	
+	&:after 
+		content ''
+		position absolute
+		top 0
+		left 0
+		display block
+		width 100%
+		height 100%
+		background rgba(37, 177, 175, .8)
+		opacity 0
+		visibility hidden
+		transition opacity .2s ease, visibility .2s ease
+		
+
+	&:hover 
+		&:after 
+			opacity 1
+			visibility visible	
+			
+			
+		.b-home-item__content
+			opacity 1
+			visibility visible	
+			
+
+	@media mq1600_1900
+		margin-top 10px
+		//margin-right 10px		
+
+.b-home-item__content
+	position absolute
+	z-index 1
+	top 0
+	left 0
+	width 400px
+	height 320px
+	opacity 0
+	visibility hidden  
+	transition opacity .3s ease, visibility .3s ease
+	
+	h4 
+		font-size 24px
+		line-height 30px
+		color #fff
+		font-weight 300
+		text-align center
+		
+	h5 
+		font-size 12px
+		line-height 30px
+		font-weight 300
+		color #FFF 	 
+		text-align center
+		
+	a 
+		color #FFF 
+		text-decoration none	
+
+.b-home-item-table
+	display table
+	height 100%
+	width 100%
+	
+.b-home-item-cell	
+	display table-cell
+	vertical-align middle
+
+.b-home-item__img 
+	
+	img 
+		width 400px
+		height 320px
+		display block
+	
+	
+.b-home-item__border
+	margin 7px auto 16px
+	width 107px
+	height 1px
+	background #FFF 	
+	 
+.b-home-item_anch
+	margin 0 auto	
+	display block
+	width 61px
+	height 61px	
+	border 1px solid #fff
+	border-radius 50%
+	padding-top 21px
+	text-align center
+	
+		

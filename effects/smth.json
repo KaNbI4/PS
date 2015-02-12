@@ -1,0 +1,26 @@
+[{
+   "firstName": "Иван",
+   "lastName": "Иванов",
+   "address": {
+       "streetAddress": "Московское ш., 101, кв.101",
+       "city": "Ленинград",
+       "postalCode": 101101
+   },
+   "phoneNumbers": [
+       "812 123-1234",
+       "916 123-4567"
+   ]
+},
+{
+   "firstName": "Сергей",
+   "lastName": "Коновалов",
+   "address": {
+       "streetAddress": "Фонтанка ул., 90, к. 5., кв.8",
+       "city": "Санкт-Петербург",
+       "postalCode": 191181
+   },
+   "phoneNumbers": [
+       "812 123-1234",
+       "916 123-4567"
+   ]
+}]
