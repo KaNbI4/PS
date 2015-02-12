@@ -1,5 +1,5 @@
-<div class="b-about">
-	<div class="b-about-inner">
+<div class="b-singlework">
+	<div class="b-siglework-inner">
 		<div class="b-sigle-left">
 			<div class="b-single-left__img">
 				<img src="" alt="">
@@ -31,7 +31,7 @@
 
 		<div class="b-sigle-right">
 			<div class="b-sigle-right__project-info">
-				<h4>Our Skills</h4>
+				<h4>Project Info</h4>
 				<div class="b-project-info">
 					<ul>
 						<li><i class="fa fa-user"></i><a href="#">Premiumlayers</a></li>

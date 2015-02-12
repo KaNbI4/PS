@@ -10,7 +10,7 @@
 <div class="b-content">
 	
 	<?php include 'navigation.php'; ?>	
-	<?php include 'home.php'; ?>	
+	<?php include 'about.php'; ?>	
 
 </div>
 </body>
