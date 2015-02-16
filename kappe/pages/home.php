@@ -18,12 +18,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -37,12 +34,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лермонтов Михаил Юрьевич</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -56,12 +50,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -75,12 +66,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -94,12 +82,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -113,12 +98,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -132,12 +114,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -151,12 +130,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>	
@@ -170,12 +146,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -189,12 +162,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -208,12 +178,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -227,12 +194,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -246,12 +210,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -265,12 +226,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -284,12 +242,9 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
@@ -303,12 +258,265 @@
 						<div class="b-home-item-cell">
 							<h4>Лев Николаевич Толстой</h4>
 							<h5>Война и мир</h5>
-							<div class="b-home-item__border"></div>
-							<div class="b-home-item_anch">
-								<i class="fa fa-arrow-right"></i>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Лев Николаевич Толстой</h4>
+							<h5>Война и мир</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
+				</a>
+			</div>
+		</div>
+		<div class="b-home-item">
+			<div class="b-home-item__img">
+				<img src="./img/home-item.jpg" alt="">
+			</div>
+			<div class="b-home-item__content">
+				<a href="">
+					<div class="b-home-item-table">
+						<div class="b-home-item-cell">
+							<h4>Джон Рональд Роуэл Толкиен</h4>
+							<h5>Властелин колец</h5>
+						</div>
+					</div>
+					<i class="fa fa-arrow-right"></i>
 				</a>
 			</div>
 		</div>
