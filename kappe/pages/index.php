@@ -11,7 +11,7 @@
 <div class="b-content">
 	
 	<?php include 'navigation.php'; ?>	
-	<?php include 'singlepost.php'; ?>	
+	<?php include 'home.php'; ?>	
 
 </div>
 </body>
